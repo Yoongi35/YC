@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<P>
+    <div class="titulo">
+        <h1>UNIDADES DE MEDIDAS EN CSS</h1>
+    </div>
+    
+    <nav class="menu">
+        <ul>
+            <li><a href="#R">UNIDAD ABSOLUTAS</a></li>
+            <li><a href="#E">UNIDAD RELATIVA</a></li>
+            <li><a href="#j">BIBLIOGRAFIAS</a></li>
+            
+        </ul>
+
+    </nav>
+    <nav class="video-container">
+        
+        <center><iframe width="882" height="496" src="https://www.youtube.com/embed/V7__Bz9gr3s" title="Unidades de medida en CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+    <h2 id="R">UNIDAD ABSOLUTAS</h2>
+    <p> Las unidades absolutas en CSS son unidades de medida que tienen un valor fijo y no 
+        cambian en relación con otros elementos o el tamaño de la ventana del navegador. 
+        Esto significa que su valor es constante y no está sujeto a cambios en el contexto 
+        de diseño. Las unidades absolutas son útiles cuando se necesita un control preciso 
+        sobre el tamaño y posición de los elementos en una página web.
+    </P>
+
+        <h3>Píxeles (px):</h3>
+            <p> Es la unidad de medida más comúnmente utilizada en CSS. Un píxel 
+                representa un solo punto en la pantalla y es una medida fija. Por ejemplo, 
+                width: 100px; establecerá un ancho de 100 píxeles para un elemento.
+            </p>
+
+        <h3>Puntos (pt):</h3>
+            <p> Un punto es una unidad de medida equivalente a 1/72 de una pulgada en la 
+                pantalla. Se utiliza principalmente para medidas relacionadas con la tipografía. 
+                Por ejemplo, font-size: 12pt; establecerá un tamaño de fuente de 12 puntos para 
+                un elemento.
+            </p>
+
+        <h3>Pulgadas (in):</h3>
+            <p> Una pulgada es una unidad de medida que representa una pulgada física en la 
+                pantalla. Se utiliza raramente en diseño web debido a la variabilidad del 
+                tamaño de la pantalla de los dispositivos. Por ejemplo, width: 2in; establecerá 
+                un ancho de 2 pulgadas para un elemento.
+            </p>
+
+        <h3>Centímetros (cm): </h3>
+            <p>Un centímetro es una unidad de medida que representa un centímetro físico en la 
+                pantalla. Al igual que las pulgadas, se utiliza raramente en diseño web debido 
+                a la variabilidad del tamaño de la pantalla de los dispositivos. Por ejemplo, 
+                height: 5cm; establecerá una altura de 5 centímetros para un elemento.
+            </p>
+
+        <p> ❆ Las unidades absolutas son útiles cuando se necesita un diseño con medidas precisas 
+            y consistentes en diferentes dispositivos. Sin embargo, pueden no ser tan flexibles 
+            para diseños responsivos que se adaptan a diferentes tamaños de pantalla. En esos casos, 
+            las unidades relativas son preferibles ya que se ajustan dinámicamente en función del 
+            contexto de diseño.
+        </p>
+
+    <h2 id="E">UNIDAD RELATIVA</h2>
+    <p> Las unidades relativas en CSS son unidades de medida que se basan en el tamaño de otro 
+        elemento, lo que las hace más flexibles y adaptables a diferentes contextos de diseño. 
+        A diferencia de las unidades absolutas, cuyo valor es constante, las unidades relativas 
+        ajustan su valor en función del tamaño o contexto del elemento padre, la ventana del navegador 
+        o incluso del dispositivo. Aquí tienes una explicación más amplia de algunas unidades 
+        relativas en CSS:
+    </p>  
+
+        <h3>Em (em):</h3>
+            <p>La unidad "em" es relativa al tamaño de la fuente del elemento padre.</p>
+            <p>Por ejemplo, si el tamaño de fuente de un elemento padre es de 16px y estableces el tamaño de fuente de un hijo en 2em, entonces el tamaño de fuente del hijo será de 32px (2 veces el tamaño de fuente del padre).</p>
+
+        <h3>Rem (rem):</h3>
+            <p>Similar a "em", pero en lugar de basarse en el tamaño de fuente del elemento padre, se basa en el tamaño de fuente del elemento raíz (<html>).</p>
+            <p>Esto lo hace más predecible y fácil de manejar en estructuras de estilo más complejas, ya que su valor es constante en todo el documento.</p>
+
+        <h3>Porcentaje (%):</h3>
+            <p>Esta unidad es relativa al tamaño del contenedor principal o al elemento padre en el caso de propiedades como width o height.</p>
+            <p>Por ejemplo, un ancho del 50% en un elemento significa que ocupará la mitad del ancho de su contenedor principal.</p>
+
+        <h3>Viewport Units (vw, vh, vmin, vmax):</h3>
+            <p>Estas unidades se basan en el tamaño de la ventana gráfica del navegador, es decir, el área visible del navegador.</p>
+
+                <h4>vw (viewport width): </h4>
+                    <p>1vw es igual al 1% del ancho de la ventana gráfica.</p>
+
+                <h4>vh (viewport height):</h4>
+                    <P>1vh es igual al 1% de la altura de la ventana gráfica.</P>
+
+                <h4>vmin y vmax: </h4>
+                    <P>Representan el mínimo y el máximo entre vw y vh.</P>
+
+    <P>Las unidades relativas son especialmente útiles para diseñar sitios web responsivos que se 
+        adaptan a diferentes tamaños de pantalla y dispositivos. Proporcionan una mayor flexibilidad 
+        y facilitan la creación de diseños fluidos y adaptables.
+    </P>
+    <h2 id="J">BIBLIOGRAFIAS</h2>
+    <p>
+    </p>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units" target="_blank">MDN Web Docs: Units and Values</a>
+    <p>
+    
+  <footer>
+    <p>UNIDADES DE MEDIDAS EN CSS</p>
+    <P>10/04/2024 </P>
+  </footer>
+
+</body>
+</html>
